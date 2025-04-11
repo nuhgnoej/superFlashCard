@@ -46,3 +46,5 @@ git remote add origin https://<USERNAME>:<YOUR_PAT>@github.com/<USERNAME>/<REPO>
 ### 최초 push (브랜치 이름은 main 또는 master 확인 필요)
 
 git push -u origin main
+
+
