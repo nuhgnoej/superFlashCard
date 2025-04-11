@@ -47,4 +47,26 @@ git remote add origin https://<USERNAME>:<YOUR_PAT>@github.com/<USERNAME>/<REPO>
 
 git push -u origin main
 
+## 학습 내용 순서
 
+컴포넌트 설명
+View 레이아웃 컨테이너 (HTML의 div 느낌)
+Text 텍스트 출력 (HTML의 p, span 등)
+Image 이미지 표시 (HTML의 img)
+ScrollView 스크롤 가능한 영역
+FlatList 성능 좋은 리스트 (많은 데이터에 적합)
+TouchableOpacity / Pressable 터치 가능한 요소 (버튼처럼 사용)
+TextInput 텍스트 입력 필드
+Button 기본 버튼 (커스터마이징 제한적)
+SafeAreaView 노치/상단바 고려한 안전 영역
+KeyboardAvoidingView 키보드가 올라올 때 UI 겹침 방지
+
+### ✨ 추천 학습 순서
+
+- [ ] View, Text, StyleSheet → 레이아웃과 텍스트
+- [ ] FlatList, ScrollView → 리스트와 스크롤
+- [ ] TouchableOpacity, Button → 사용자 입력
+- [ ] TextInput → 입력 필드 다루기
+- [ ] React Navigation or Expo Router → 화면 간 이동
+- [ ] useState/useEffect + API 연동 → 동적 데이터 처리
+- [ ] Context or Redux (필요할 때) → 상태 전역관리
