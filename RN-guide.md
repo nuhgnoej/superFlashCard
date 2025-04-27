@@ -70,3 +70,7 @@ KeyboardAvoidingView 키보드가 올라올 때 UI 겹침 방지
 - [ ] React Navigation or Expo Router → 화면 간 이동
 - [ ] useState/useEffect + API 연동 → 동적 데이터 처리
 - [ ] Context or Redux (필요할 때) → 상태 전역관리
+
+## async-storage expo module 설치 명령어
+
+$ npx expo install @react-native-async-storage/async-storage
